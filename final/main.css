@@ -1,0 +1,25 @@
+/*general - start*/
+html {
+	font-size: 62.5%;
+}
+
+h2, #picsHeader {
+	color: #568E14;
+}
+
+body {
+	text-align: center;
+	overflow: auto;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+.overall{
+	max-width:545px;
+	height:100vh;
+}
+
+.loader{
+	z-index:3;
+}
+/* general- end */

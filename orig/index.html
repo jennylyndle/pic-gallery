@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BAO Photo Gallery</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- main css -->
+<link rel="stylesheet" href="./CSS/main.css">
+
+</head>
+<body>
+ <div class="container overall">
+	<div id="loader">
+		<img src="./images/load.gif" 
+	    id="img-load" />
+	</div>
+	
+	<div class="overlay">
+	</div>
+	<h2 id="eventName">BAO Photo Gallery 2017
+	</h2>
+	<div class="timeLineContainer">
+	</div>
+	<div class="albumBreadcrumbs">
+		<h3 id="picsHeader"></h3>
+		<p id="albumSummary"></p>
+	</div>
+	<div class="container albumContainer">
+	</div>	
+	<div class="container imageContainer" style="display:none;">
+	</div>
+	<div class="content">
+		<span class="closeContainer">
+			<span class="hidden-sm hidden-xs">close</span>
+			<i class="fa fa-times" aria-hidden="true"></i>
+		</span>
+		<div class="row" style="margin-top: 1%;">
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<span><i class="fa fa-chevron-left img-prev" aria-hidden="true"></i></span>
+			</div>
+			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-10">
+				<div class="row" style="margin-bottom:1.5%;">
+				  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+				  <h1 class="picHeading">Heading</h1> 
+				  </div>
+				</div>
+				<div class="row viewImageContainer">
+				  <img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg"></img>
+				</div>
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<span><i class="fa fa-chevron-right img-next" aria-hidden="true"></i></span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				  <div class="col-lg-12 picDesc"> description </div>
+			</div>
+			
+		</div>
+	</div>
+</div>	
+<!-- jQuery latest CDN  -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- font-awesome -->
+<script src="https://use.fontawesome.com/c3c32e4ecd.js"></script>
+
+<!-- main.js -->
+<script src="./JS/custom/main.js"></script>
+
+	
+</body>
+</html>

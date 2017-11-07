@@ -1,0 +1,29 @@
+.timeline {
+	margin-top: 1%;
+	width: 100%;
+	margin-left: 5%;
+	text-align:center;
+}
+
+.arrow, .selector, .img-prev, .img-next, .yearContent:hover, .makeLink, .active
+	{
+	color: #568E14;
+	cursor: pointer;
+}
+
+.active .selector {
+	background-color: #568E14;
+}
+
+.selector {
+	height: 5px;
+	border-radius: 15px;
+}
+
+.showSelector {
+	display: inherit;
+}
+
+.disabled {
+	color: #f4f4f4 !important;
+}
