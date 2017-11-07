@@ -1,0 +1,129 @@
+
+/* album and image container & elements - start */
+
+/* album name and details - start */
+.albumBreadcrumbs {
+	text-align: center;
+	margin: 2% 0 0 18%;
+	width: 60%;
+}
+
+#picsHeader {
+	margin: 1% 15% 1% 15%;
+}
+
+#albumSummary {
+	font-size: 1.4rem;
+	margin: 0 15% 0 15%;
+	text-align: justify;
+}
+
+/* album name and details - end */
+
+.mainDiv {
+	color: white;
+	height: auto;
+	padding: 0;
+	margin: 2%;
+}
+
+.picDiv {
+	margin: .5%;
+	height: 25vh;
+}
+
+.albumContainer{
+	margin: 2% 0 0 24%;
+	width: 50vw;
+	height: 75vh;
+}
+
+.faceOfAlbum, .albumPic {
+	-webkit-box-shadow: 2px 2px 4px 0px black;
+	/* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	box-shadow: 2px 2px 4px 0px black;
+	/* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	min-width: 120px;
+	max-width: 160px;
+	max-height: 160px;
+	min-height: 130px;
+}
+
+.albumName {
+	color: #0000EE;
+	margin: 10% 0 20% 0;
+}
+
+.divOverlay {
+	border: 1px solid black;
+	opacity: 0.3;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	color: white;
+	background-color: black;
+	top: 0;
+	left: 0;
+}
+
+/* album images view - end */
+
+/* album and image container & elements - end */
+
+
+/*Media Queries*/
+
+/*xxs < 430*/
+@media screen and (max-width: 430px) {
+	.albumContainer{
+		width: 100%;
+		margin: 2% 0 0 2%;
+		padding: 0;
+	}
+}
+
+/* xs > 430 */
+@media screen and (min-width: 430px) {
+	.albumContainer {
+		width: 100%;
+		margin-left: 4.25%;
+	}
+}
+
+/*xs > 520*/
+@media screen and (min-width: 520px) {
+	.albumContainer {
+		width: 100%;
+		margin-left: 7.25%;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+	.albumContainer {
+		width: 100%;
+		margin-left: 7.5%;
+	}
+		.noScroll {
+		overflow: hidden;
+	}
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+	.albumContainer {
+		width: 100%;
+		margin-left: 7.5%;
+	}
+}
+
+/*lg*/
+@media screen and (min-width: 1200px) {
+	.albumContainer {
+		width: 100%;
+		margin-left: 7.5%;
+	}
+}

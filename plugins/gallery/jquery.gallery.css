@@ -1,0 +1,167 @@
+/* album and image container & elements - start */
+
+/* album name and details - start */
+.albumBreadcrumbs {
+	text-align: center;
+	margin: 2% 0 0 0%;
+	width: 100%;
+}
+
+.picsHeader {
+	margin: 1% 0 1% 0;
+}
+
+.albumSummary {
+	font-size: 1.4rem;
+	/*margin: 0 15% 0 15%;*/
+	text-align: justify;
+}
+
+/* album name and details - end */
+.imageContainer {
+	margin: 2% 0 0 0;
+	width: 100%;
+}
+
+.picDiv {
+	color: white;
+	padding: 0;
+	margin: 0;
+	height: 25vh;
+}
+
+.picDiv {
+	
+}
+
+.albumPic {
+	-webkit-box-shadow: 2px 2px 4px 0px black;
+	/* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	box-shadow: 2px 2px 4px 0px black;
+	/* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	cursor: pointer;
+	height: 95%;
+	width: 100%;
+	min-width: 120px;
+	max-width: 160px;
+	max-height: 160px;
+	min-height: 130px;
+}
+
+.albumName {
+	color: #0000EE;
+	margin: 10% 0 20% 0;
+}
+
+.divOverlay {
+	border: 1px solid black;
+	opacity: 0.3;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	color: white;
+	background-color: black;
+	top: 0;
+	left: 0;
+}
+
+/* album images view - end */
+
+/* album and image container & elements - end */
+
+/*Media Queries
+
+/*xxs < 430*/
+@media screen and (max-width: 430px) {
+	.imageContainer {
+		width: 100%;
+		margin: 2% 0 0 2%;
+		padding: 0;
+		margin-left: 8%;
+	}
+	.albumBreadcrumbs {
+		width: 100%;
+		margin: 2% 0 0 0;
+	}
+	.albumSummary, .picsHeader {
+		margin-left: 0;
+	}
+}
+
+/* xs>430 */
+@media screen and (min-width: 430px) {
+	.imageContainer {
+		margin-left: 8%;
+		width: 100%;
+	}
+	.albumBreadcrumbs {
+		width: 100%;
+		margin: 2% 0 0 0;
+	}
+	.albumSummary, .picsHeader {
+		margin-left: 0;
+	}
+}
+
+/* xs>520 */
+@media screen and (min-width: 520px) {
+	.imageContainer {
+		width: 100%;
+		margin-left: 9%;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+	.imageContainer {
+		margin: 2% 0 0 0;
+		width: 100%;
+	}
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+	.albumBreadcrumbs {
+		margin: 2% 0 0 0;
+		width: 100%;
+	}
+	.picsHeader {
+		margin: 1% 0 1% 0;
+	}
+	.albumSummary {
+		font-size: 1.4rem;
+		/*margin: 0 15% 0 15%;*/
+		text-align: justify;
+	}
+	.imageContainer {
+		margin: 2% 0 0 0;
+		width: 100%;
+	}
+	.picDiv {
+		margin: 0;
+	}
+}
+
+/*lg*/
+@media screen and (min-width: 1200px) {
+	.imageContainer {
+		margin: 2% 0 0 0;
+		width: 100%;
+	}
+	.albumBreadcrumbs {
+		text-align: center;
+		margin: 2% 0 0 0%;
+		width: 100%;
+	}
+	.picsHeader {
+		margin: 1% 0 1% 0;
+	}
+	.albumSummary {
+		font-size: 1.4rem;
+		/*margin: 0 15% 0 15%;*/
+		text-align: justify;
+	}
+	.picDiv {
+		margin: 0;
+	}
+}
