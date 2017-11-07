@@ -1,9 +1,7 @@
 # pic-gallery
-For Bay Area Older Adults
-To integrate the code into the app:
-  1.download all the code under plugins folder
-  2.include the following dependencies in the index.html:
-	3.scripts:
+  1. Download all the code under plugins folder from final version.
+  2. Include the following dependencies in the index.html:
+  3. Scripts:
 		<script
 		src="https://code.jquery.com/jquery-3.2.1.min.js"
 		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -27,8 +25,7 @@ To integrate the code into the app:
 		<script src="./plugins/pic-gallery/jquery.gallery.js"></script>
 
 		<script src="./plugins/image-detail/jquery.image-detail.js"></script>
-	
-	 4.styles:
+  4. Styles:
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-         BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -40,7 +37,7 @@ To integrate the code into the app:
 		<link rel="stylesheet" href="./plugins/pic-gallery/jquery.gallery.css">
 		<link rel="stylesheet" href="./plugins/image-detail/jquery.image-detail.css">
 		
-  5.I assume that these plugins will be inserted into the page on the click of the gallery link in your main page. 
+  5. I assume that these plugins will be inserted into the page on the click of the gallery link in your main page. 
 	In that case, please add the target location where we are going to display the gallery in your main page and add an Id or reference to  it.
 	6. Please take a look at my index.html page for reference.
   
