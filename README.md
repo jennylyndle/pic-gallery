@@ -41,39 +41,15 @@
 	In that case, please add the target location where we are going to display the gallery in your main page and add an Id or reference to  it.
 	6. Please take a look at my index.html page for reference.
   
-  Notes:
-    1.I have added a separate timelinecontainer in my index to accomodate external styles apart from the plugin styles
-    2.add the styles under the given main.css file to your main css file. 
-    3.Include the contents from the main.js file into your app's main script file. I have commented the code to be invoked when we click  the gallery button/link
+I have added a separate timelinecontainer in my index to accomodate external styles apart from the plugin styles.Please add the styles under the given main.css file to your main css file and include the contents from the main.js file into your app's main script file. I have added comments to indicate the code to be invoked when we click the gallery button/link.
 
 According to the current design, the entire gallery info json is retrieved only once when the gallery is to be displayed. API can be designed with REST end points for every album/pic, in case of which the UI should be modified too.
 
-The current JSON structure is:
-	{
-		"albums":[
-					{
-					  "year":2017, 
-					  "events":[
-								{
-								  "name":"event name", 
-								  "summary":"event summary",
-								  "pics": [
-											{
-											  "title":"pic title",
-											  "thumbnail_url":"thumbnail url of pic",
-											  "full_url":"full pic url"
-											},
-											{},
-											...
-								  ]
-								},
-								{},
-								...]
-					},
-					{},.......
-		
-		]
-	}
+Also, the images are loaded lazily as per the album clicked.
+
+The data mock is in the pics.json file. I have currently hosted the data in my git to fetch it async. Ideally the data should come from the DB. The current JSON structure is an object with "albums" which is an array of objects each containing the year and an array of events.
+Each event contains the name, summary and an array of pics.
+Each pics object in turn has a title, thumbnail url and full url.
 
 What remains is to design and develop the backend to enable uploading the pics and simultaneously create a thumbnail for each pic and save it and update the urls in the json.
 	
